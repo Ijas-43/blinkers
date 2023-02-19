@@ -1,0 +1,60 @@
+<nav class="navbar sticky-top navbar-expand-lg bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand  fs-2" href="#">BEST SPCES</a>
+    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link fw-bold me-5" aria-current="page" href="#" routerLink="/home"
+            routerLinkActive="active-link">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link fw-bold me-5" href="#" routerLink="/product" routerLinkActive="active-link">Shop All</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold me-5" href="" routerLink="/about" routerLinkActive="active-link">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link fw-bold me-5" href="#" routerLink="/contact" routerLinkActive="active-link">Contact Us</a>
+        </li>
+      </ul>
+
+
+      <form class="d-flex" role="login">
+        <input type="search" name="search" id="search1" class="form-control" [(ngModel)]="searchTerm"
+          (keyup)="search($event)" placeholder="search products" style="width
+:200px;">
+        <button class="btn fw-bold border border-0" type="submit" (click)="toggleTag()"><i class="fa fa-xl fa-shopping-bag"
+            aria-hidden="true"></i>
+          <div style="font-size: 12px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+        <button class="btn fw-bold ms-2" type="submit"><i class="fa fa-xl fa-user" aria-hidden="true"></i></button>
+      </form>
+
+        <div class="shopping-cart" *ngIf="showMe">
+          <p class="fs-4 text-primary text-center">Cart Items</p>
+            <div class="box mx-3" *ngFor="let item of products">
+
+              <i class="fa fa-trash" (click)="removeItem(item)"></i>
+              <img src="{{item.image1}}" alt="men">
+              <div class="content mx-5">
+                <h3>{{item.name}}</h3>
+                <span class="price">{{item.price}}</span>
+                <span class="quantity">Qty : {{item.quantity}}</span>
+              </div>
+            </div>
+
+
+          <a href="#" class="btn btn-outline-success checkout" type="button" routerLink="/cart">checkout</a>
+        </div>
+
+  </div>
+
+  </div>
+</nav>

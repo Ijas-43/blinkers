@@ -1,0 +1,276 @@
+[
+  {
+      "id": 1,
+      "category": "men",
+      "name": "Lenscart",
+      "image1": "/assets/home-img/act-men-1.jpg",
+      "iamge2":"/assets/home-img/hov-men-1.jpg",
+      "price": 999,
+      "quantity": 1
+  },
+  {
+    "id": 2,
+    "category": "women",
+    "name": "Polaroid",
+    "image1": "/assets/home-img/act-women-1.jpg",
+    "iamge2":"/assets/home-img/hov-women-1.jpg",
+    "price": 899,
+    "quantity": 1
+  },
+  {
+    "id": 3,
+     "category": "kids",
+    "name": "Prada",
+    "image1": "/assets/home-img/act-kid-1.jpg",
+    "iamge2":"/assets/home-img/hov-kid-1.jpg",
+    "price": 999,
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "category": "Computer Glass",
+    "name": "Coolwinks",
+    "image1": "/assets/home-img/act-com-1.jpg",
+    "iamge2":"/assets/home-img/hov-women-1.jpg",
+    "price": 1299,
+    "quantity": 1
+  },
+  {
+    "id": 5,
+    "category": "Sunglasses",
+    "name": "Titan",
+    "image1": "/assets/home-img/act-sun-1.jpg",
+    "iamge2":"/assets/home-img/hov-men-3.jpg",
+    "price": 1299,
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "category": "Lenses",
+    "name": "Fastrack",
+    "image1": "/assets/home-img/act-men-2.jpg",
+    "iamge2":"/assets/home-img/hov-women-1.jpg",
+    "price": 1399,
+    "quantity": 1
+  },
+
+  {
+    "id": 7,
+    "category": "men",
+    "name": "Oakley",
+    "image1": "/assets/home-img/act-men-2.jpg",
+    "iamge2":"/assets/home-img/hov-men-2.jpg",
+    "price": 1999,
+    "quantity": 1
+},
+{
+  "id": 8,
+  "category": "women",
+  "name": "Carrera",
+  "image1": "/assets/home-img/act-women-2.jpg",
+  "iamge2":"/assets/home-img/hov-women-2.jpg",
+  "price": 1499,
+  "quantity": 1
+},
+{
+  "id": 9,
+   "category": "kids",
+  "name": "Eyedo",
+  "image1": "/assets/home-img/act-kid-2.jpg",
+  "iamge2":"/assets/home-img/hov-kid-2.jpg",
+  "price": 799,
+  "quantity": 1
+},
+{
+  "id": 10,
+  "category": "Computer Glass",
+  "name": " Rayban",
+  "image1": "/assets/home-img/act-com-2.jpg",
+  "iamge2":"/assets/home-img/hov-women-4.jpg",
+  "price": 2199,
+  "quantity": 1
+},
+{
+  "id":11,
+  "category": "Sunglasses",
+  "name": "Titan",
+  "image1": "/assets/home-img/act-sun-1.jpg",
+  "iamge2":"/assets/home-img/hov-men-2.jpg",
+  "price": 1499,
+  "quantity": 1
+},
+{
+  "id": 12,
+  "category": "Lenses",
+  "name": "Fastrack",
+  "image1": "/assets/home-img/act-men-5.jpg",
+  "iamge2":"/assets/home-img/hov-women-1.jpg",
+  "price": 1399,
+  "quantity": 1
+},
+{
+  "id": 13,
+  "category": "men",
+  "name": "Lenscart",
+  "image1": "/assets/home-img/act-men-3.jpg",
+  "iamge2":"/assets/home-img/hov-men-3.jpg",
+  "price": 1999,
+  "quantity": 1
+},
+{
+"id": 14,
+"category": "women",
+"name": "Polaroid",
+"image1": "/assets/home-img/act-women-3.jpg",
+"iamge2":"/assets/home-img/hov-women-1.jpg",
+"price": 899,
+"quantity": 1
+},
+{
+"id": 15,
+ "category": "kids",
+"name": "Prada",
+"image1": "/assets/home-img/act-kid-3.jpg",
+"iamge2":"/assets/home-img/hov-kid-3.jpg",
+"price": 999,
+"quantity": 1
+},
+{
+"id": 16,
+"category": "Computer Glass",
+"name": "Coolwinks",
+"image1": "/assets/home-img/act-com-3.jpg",
+"iamge2":"/assets/home-img/hov-women-1.jpg",
+"price": 1299,
+"quantity": 1
+},
+{
+"id": 17,
+"category": "Sunglasses",
+"name": "Titan",
+"image1": "/assets/home-img/act-sun-3.jpg",
+"iamge2":"/assets/home-img/hov-men-2.jpg",
+"price": 1299,
+"quantity": 1
+},
+{
+"id": 18,
+"category": "Lenses",
+"name": "Fastrack",
+"image1": "/assets/home-img/act-men-2.jpg",
+"iamge2":"/assets/home-img/hov-men-2.jpg",
+"price": 1399,
+"quantity": 1
+},
+
+{
+"id": 19,
+"category": "men",
+"name": "Oakley",
+"image1": "/assets/home-img/act-men-4.jpg",
+"iamge2":"/assets/home-img/hov-men-4.jpg",
+"price": 1999,
+"quantity": 1
+},
+{
+"id": 20,
+"category": "women",
+"name": "Carrera",
+"image1": "/assets/home-img/act-women-4.jpg",
+"iamge2":"/assets/home-img/hov-women-4.jpg",
+"price": 1499,
+"quantity": 1
+},
+{
+"id": 21,
+"category": "kids",
+"name": "Eyedo",
+"image1": "/assets/home-img/act-kid-4.jpg",
+"iamge2":"/assets/home-img/hov-kid-4.jpg",
+"price": 799,
+"quantity": 1
+},
+{
+"id": 22,
+"category": "Computer Glass",
+"name": " Rayban",
+"image1": "/assets/home-img/act-com-4.jpg",
+"iamge2":"/assets/home-img/hov-women-5.jpg",
+"price": 2199,
+"quantity": 1
+},
+{
+"id": 23,
+"category": "Sunglasses",
+"name": "Titan",
+"image1": "/assets/home-img/act-sun-4.jpg",
+"iamge2":"/assets/home-img/hov-men-1.jpg",
+"price": 1499,
+"quantity": 1
+},
+{
+"id": 24,
+"category": "Lenses",
+"name": "Fastrack",
+"image1": "/assets/home-img/act-men-3.jpg",
+"iamge2":"/assets/home-img/hov-men-1.jpg",
+"price": 1399,
+"quantity": 1
+},
+
+{
+  "id": 25,
+  "category": "men",
+  "name": "Lenscart",
+  "image1": "/assets/home-img/act-men-5.jpg",
+  "iamge2":"/assets/home-img/hov-men-5.jpg",
+  "price": 2999,
+  "quantity": 1
+},
+{
+"id": 26,
+"category": "women",
+"name": "Polaroid",
+"image1": "/assets/home-img/act-women-5.jpg",
+"iamge2":"/assets/home-img/hov-women-5.jpg",
+"price": 1899,
+"quantity": 1
+},
+{
+"id": 27,
+ "category": "kids",
+"name": "Prada",
+"image1": "/assets/home-img/act-kid-5.jpg",
+"iamge2":"/assets/home-img/hov-kid-5.jpg",
+"price": 1999,
+"quantity": 1
+},
+{
+"id": 28,
+"category": "Computer Glass",
+"name": "Coolwinks",
+"image1": "/assets/home-img/act-com-5.jpg",
+"iamge2":"/assets/home-img/hov-women-1.jpg",
+"price": 1399,
+"quantity": 1
+},
+{
+"id": 29,
+"category": "Sunglasses",
+"name": "Titan",
+"image1": "/assets/home-img/act-sun-5.jpg",
+"iamge2":"/assets/home-img/hov-men-4.jpg",
+"price": 1599,
+"quantity": 1
+},
+{
+"id": 30,
+"category": "Lenses",
+"name": "Fastrack",
+"image1": "/assets/home-img/act-men-1.jpg",
+"iamge2":"/assets/home-img/hov-men-5.jpg",
+"price": 1399,
+"quantity": 1
+}
+
+]

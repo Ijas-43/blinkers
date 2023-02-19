@@ -1,0 +1,32 @@
+
+input{
+  width:40px;
+}
+.card
+{
+  height: 78vh;
+  padding: 25px;
+  box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+  inset 4px 4px 10px white;
+}
+.center
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+h4{
+  font-weight:bold;
+}
+.center img{
+  text-decoration: none;
+  color:inherit;
+  border: none;
+  height: 100%;
+  width: 600px;
+  padding-top: 100px;
+  margin: 50px 0px;
+}

@@ -1,0 +1,136 @@
+.active-link {
+    // background-color: rgba(255, 0, 0, 0.737);
+    // border-radius: 5px;
+    // color: white !important;
+border-bottom: 3px solid rgba(255, 0, 0, 0.737);
+border-top: 3px solid rgba(255, 0, 0, 0.737);
+color: black;
+
+}
+.form-control:focus
+{
+
+  box-shadow: none;
+  background-color: white !important;
+  border-color: #9FA6B2 !important;
+
+}
+
+.nav-link{
+    position: relative;
+    letter-spacing: .5px;
+}
+.nav-link:before,
+.nav-link:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: rgba(255, 0, 0, 0.737);
+    transition: .5s;
+}
+.navbar-brand{
+    letter-spacing: 2px;
+}
+.nav-link{
+    position: relative;
+    letter-spacing: .5px;
+}
+.nav-link:before,
+.nav-link:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: rgba(255, 0, 0, 0.737);
+    transition: .5s;
+}
+.nav-link:after{
+    left: 0;
+    bottom: -1px;
+}
+.nav-link:before{
+    right: 0;
+    top: -1px;
+}
+.nav-link:hover:after,
+.nav-link:hover:before
+{
+    width: 100%;
+}
+
+
+
+
+
+.shopping-cart{
+  position: absolute;
+  top: 100%;
+  right: 2rem;
+  padding: 1rem;
+  border: 0px solid;
+  border-radius: .5rem;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1) !important;
+  width: 25rem;
+  background: #fff;
+}
+
+.box{
+  display: 0px solid blue;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  margin: 1rem 0;
+
+}
+.box img{
+  height: 3rem;
+  width: 4rem;
+}
+.box .fa-trash
+{
+
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  cursor: pointer;
+  color: #666;
+  transform: translateY(-50%);
+
+}
+.box .fa-trash:hover{
+  color: red;
+}
+.box .content
+{
+  color: black;
+  font-size: .5rem;
+  padding-bottom:1rem;
+}
+h3{
+  font-size: 1rem;
+}
+.box .content span
+{
+  color: #666;
+  font-size: 1rem;
+}
+.box .content .quantity
+{
+  padding-left:1rem;
+}
+
+.total{
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  text-align: center;
+  color: black;
+}
+.checkout{
+  padding: 8px;
+  border-radius: .5rem;
+  display: block;
+  font-size: 1rem;
+}
+

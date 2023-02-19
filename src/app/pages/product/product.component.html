@@ -1,0 +1,75 @@
+<app-header></app-header>
+<div class="container mt-5">
+  <div class="row mx-5" >
+    <div class="text-center fs-1">Shop All</div>
+    <div class="col-md-2" >
+      <p class="d-none" (click)="filter('')"></p>
+      <p class="p-2 text-center fs-5 bg-light" (click)="filter('men')" >Men</p>
+    </div>
+    <div class="col-md-2">
+      <p class="p-2 text-center fs-5 bg-light" (click)="filter('women')">Women</p>
+    </div>
+    <div class="col-md-2">
+      <p class="p-2 text-center fs-5 bg-light" (click)="filter('kids')">Kids</p>
+    </div>
+    <div class="col-md-2">
+      <p class="p-2 text-center fs-5 bg-light" (click)="filter('Computer Glass')">Computer Glass</p>
+    </div>
+    <div class="col-md-2">
+      <p class="p-2 text-center fs-5 bg-light" (click)="filter('Sunglasses')">Sunglasses</p>
+    </div>
+    <div class="col-md-2">
+      <p class="p-2 text-center fs-5 bg-light" (click)="filter('Lenses')">Lenses</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 g-3" *ngFor="let item of filterCategory | filter:searchKey:'name'">
+      <ul class="cards">
+        <li>
+          <div href="" class="card border border-0">
+            <!-- <img src="{{item.image1}}" class="card__image" alt="" /> -->
+            <div class="product">
+            <div class="product-wrap">
+              <a routerLink="/product-single"><img class="img-fluid w-100 mb-3 card__image img-first" src="{{item.image1}}"
+                  alt="product-img" /></a>
+              <a routerLink="/product-single"><img class="img-fluid w-100 mb-3 img-second" src="{{item.iamge2}}"
+                  alt="product-img" /></a>
+            </div>
+          </div>
+            <div class="card__overlay">
+              <div class="card__header bg-white ">
+                <div class="row">
+                  <div class="col-md-4 col-4">
+                    <img class="card__thumb" src="{{item.iamge2}}" alt="" />
+                  </div>
+                  <div class="col-md-4 col-4">
+                    <div class="card__header-text">
+                      <h3 class="card__title">{{item.name}}</h3>
+                      <span class="card__status text-center fw-semibold text-dark">&#8377; {{item.price}}</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-4 text-end">
+                    <button class="btn btn-white button border border-0" (click)="addtoCart(item)"><i class="fa fa-pull-right fa-xl fa-shopping-cart"
+                        aria-hidden="true"></i></button>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

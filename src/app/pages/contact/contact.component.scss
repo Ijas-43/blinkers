@@ -1,0 +1,14 @@
+.form-input{
+  border: 0;
+  height: 50px;
+  border-radius: 0;
+}
+
+.form-control:focus
+{
+
+  box-shadow: none;
+  background-color: white !important;
+  border-color: #9FA6B2 !important;
+
+}
